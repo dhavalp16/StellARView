@@ -1,0 +1,27 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/USS/CameraView.uss?fileID=7433441132597879392&amp;guid=36df917d6de647240be02e33b7ba0d75&amp;type=3#CameraView" />
+    
+    <ui:VisualElement name="PlacementArea" style="position: absolute; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0);" />
+    
+    <ui:VisualElement style="flex-grow: 1; position: absolute; height: 8%; width: 20%; background-color: rgba(5, 15, 50, 0); margin-top: 4%; margin-bottom: 2%; margin-left: 2%; margin-right: 2%; justify-content: space-evenly; align-self: auto; align-items: center;">
+        <ui:Button name="BackButton" class="Button" style="width: 100%; height: 100%; background-image: url('project://database/Assets/UI/back.png?fileID=2800000&amp;guid=9760657caa10bd043a1a0d63db4b7a0b&amp;type=3#back'); background-color: rgba(20, 40, 110, 0); -unity-background-scale-mode: scale-to-fit; border-top-left-radius: 0%; border-top-right-radius: 0%; border-bottom-right-radius: 0%; border-bottom-left-radius: 0%; padding-top: 0; background-size: 90% 100%;" />
+    </ui:VisualElement>
+    
+    <ui:VisualElement style="flex-grow: 1; position: absolute; height: 7%; width: 21%; background-color: rgba(5, 15, 50, 0); margin-top: 0%; margin-bottom: 0%; margin-left: 0%; margin-right: 0%; justify-content: space-evenly; align-self: auto; align-items: center; top: 77%; left: 80%; padding-top: 0%; padding-right: 2%; padding-bottom: 0%; padding-left: 0%;">
+        <ui:Button name="ClearCanvas" class="Button" style="width: 25px; height: 25px; background-image: url('project://database/Assets/UI/clear-format.png?fileID=2800000&amp;guid=a7ba3e520cb730c449ae580570cb4324&amp;type=3#clear-format'); background-color: rgba(20, 40, 110, 0); -unity-background-scale-mode: scale-to-fit; border-top-left-radius: 80px; border-top-right-radius: 80px; border-bottom-right-radius: 80px; border-bottom-left-radius: 80px; background-size: 100% 100%;" />
+    </ui:VisualElement>
+    
+    <ui:ScrollView mode="Horizontal" horizontal-scroller-visibility="AlwaysVisible" name="ScrollView" style="height: 15%; width: 100%; margin-top: 2%; margin-right: 0%; margin-bottom: 2%; margin-left: 0%; top: 84%; background-color: rgb(255, 255, 255); bottom: auto; right: auto; min-height: auto;">
+        <ui:Button text="Sun" name="Sun" class="Button" style="background-image: url('project://database/Assets/UI/Thumbnails/Sun.png?fileID=2800000&amp;guid=53ecc56b7be381341811fa8889ef8017&amp;type=3#Sun');" />
+        <ui:Button text="Mercury" name="Mercury" class="Button" style="background-image: url('project://database/Assets/UI/Thumbnails/Mercury.png?fileID=2800000&amp;guid=ddc6c90ab4bdc0443b0cb73ae892e002&amp;type=3#Mercury');" />
+        <ui:Button text="Venus" name="Venus" class="Button" style="background-image: url('project://database/Assets/UI/Thumbnails/Venus.png?fileID=2800000&amp;guid=f3469b94071cd5e41a572fce1cc98ee7&amp;type=3#Venus');" />
+        <ui:Button text="Earth" name="Earth" class="Button" style="background-image: url('project://database/Assets/UI/Thumbnails/Earth.png?fileID=2800000&amp;guid=b4b612b5fa4b66549bc9ea172e3347ae&amp;type=3#Earth');" />
+        <ui:Button text="Moon" name="Moon" class="Button" style="background-image: url('project://database/Assets/UI/Thumbnails/Moon.png?fileID=2800000&amp;guid=9b05c65ceefac1948a3873e6ea82610a&amp;type=3#Moon');" />
+        <ui:Button text="Mars" name="Mars" class="Button" style="background-image: url('project://database/Assets/UI/Thumbnails/Mars.png?fileID=2800000&amp;guid=eddab94468c51b94b8f6b38bef1a3036&amp;type=3#Mars');" />
+        <ui:Button text="Jupiter" name="Jupiter" class="Button" style="background-image: url('project://database/Assets/UI/Thumbnails/Jupiter.png?fileID=2800000&amp;guid=d3cc58a1dbb943747a37c7ee0477e0f2&amp;type=3#Jupiter');" />
+        <ui:Button text="Saturn" name="Saturn" class="Button" style="background-image: url('project://database/Assets/UI/Thumbnails/Saturn.png?fileID=2800000&amp;guid=f7aa61f65b0c11a47918b2f88aaf6ba0&amp;type=3#Saturn');" />
+        <ui:Button text="Uranus" name="Uranus" class="Button" style="background-image: url('project://database/Assets/UI/Thumbnails/Uranus.png?fileID=2800000&amp;guid=fad1f28637062634eace745a1d9b5dad&amp;type=3#Uranus');" />
+        <ui:Button text="Neptune" name="Neptune" class="Button" style="background-image: url('project://database/Assets/UI/Thumbnails/Neptune.png?fileID=2800000&amp;guid=8d31c70f53045af479b14c85aa9963bf&amp;type=3#Neptune');" />
+        <ui:Button text="Pluto" name="Pluto" class="Button" style="background-image: url('project://database/Assets/UI/Thumbnails/Pluto.png?fileID=2800000&amp;guid=81b214d52a0e5634ab69e8fec4bac7ac&amp;type=3#Pluto');" />
+    </ui:ScrollView>
+</ui:UXML>
