@@ -57,7 +57,7 @@ VisualElement {
 
 #ScrollView > .unity-scroll-view__horizontal-scroller > #unity-slider > .unity-slider__input > #unity-drag-container > #unity-dragger {
     background-color: rgb(255, 255, 255);
-    height: 100%;
+    height: 10px;
     max-width: none;
     max-height: none;
     top: auto;

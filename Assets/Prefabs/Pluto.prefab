@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &1089991385599316014
+--- !u!1001 &8203043777559729261
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -8,52 +8,52 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -6689036041284674117, guid: 6032c5da4403c9446904b670d55cb77d, type: 3}
-      propertyPath: m_Name
-      value: Pluto
-      objectReference: {fileID: 0}
-    - target: {fileID: 2774220344278030320, guid: 6032c5da4403c9446904b670d55cb77d, type: 3}
+    - target: {fileID: -1895251771027419747, guid: 6032c5da4403c9446904b670d55cb77d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.29735
+      value: -1.82634
       objectReference: {fileID: 0}
-    - target: {fileID: 2774220344278030320, guid: 6032c5da4403c9446904b670d55cb77d, type: 3}
+    - target: {fileID: -1895251771027419747, guid: 6032c5da4403c9446904b670d55cb77d, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2774220344278030320, guid: 6032c5da4403c9446904b670d55cb77d, type: 3}
+    - target: {fileID: -1895251771027419747, guid: 6032c5da4403c9446904b670d55cb77d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.29735
+      value: -0.1826
       objectReference: {fileID: 0}
-    - target: {fileID: 2774220344278030320, guid: 6032c5da4403c9446904b670d55cb77d, type: 3}
+    - target: {fileID: -1895251771027419747, guid: 6032c5da4403c9446904b670d55cb77d, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2774220344278030320, guid: 6032c5da4403c9446904b670d55cb77d, type: 3}
+    - target: {fileID: -1895251771027419747, guid: 6032c5da4403c9446904b670d55cb77d, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.7071068
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2774220344278030320, guid: 6032c5da4403c9446904b670d55cb77d, type: 3}
+    - target: {fileID: -1895251771027419747, guid: 6032c5da4403c9446904b670d55cb77d, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2774220344278030320, guid: 6032c5da4403c9446904b670d55cb77d, type: 3}
+    - target: {fileID: -1895251771027419747, guid: 6032c5da4403c9446904b670d55cb77d, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2774220344278030320, guid: 6032c5da4403c9446904b670d55cb77d, type: 3}
+    - target: {fileID: -1895251771027419747, guid: 6032c5da4403c9446904b670d55cb77d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2774220344278030320, guid: 6032c5da4403c9446904b670d55cb77d, type: 3}
+    - target: {fileID: -1895251771027419747, guid: 6032c5da4403c9446904b670d55cb77d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2774220344278030320, guid: 6032c5da4403c9446904b670d55cb77d, type: 3}
+    - target: {fileID: -1895251771027419747, guid: 6032c5da4403c9446904b670d55cb77d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -947854281186570357, guid: 6032c5da4403c9446904b670d55cb77d, type: 3}
+      propertyPath: m_Name
+      value: Pluto
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: -5645937942226959685, guid: 6032c5da4403c9446904b670d55cb77d, type: 3}
+  m_SourcePrefab: {fileID: -4161369568681901532, guid: 6032c5da4403c9446904b670d55cb77d, type: 3}
